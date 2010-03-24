@@ -1,0 +1,24 @@
+<JobDefinition xmlns="http://schemas.ggf.org/jsdl/2005/11/jsdl">
+<JobDescription>
+<JobIdentification><JobName>blastTest</JobName></JobIdentification>
+<Application>
+<ApplicationName>blast</ApplicationName>
+<ApplicationVersion>2.2.21</ApplicationVersion>
+<POSIXApplication xmlns="http://schemas.ggf.org/jsdl/2005/11/jsdl-posix">
+<Executable>blastall</Executable>
+<Argument>-p</Argument>
+<Argument>blastx</Argument>
+<Argument>-d</Argument>
+<Argument>nr</Argument>
+<Argument>-i</Argument>
+<Argument>AA123456.fa</Argument>
+<Argument>-o</Argument>
+<Argument>blastOutput.bls</Argument>
+<Output>stdout.txt</Output>
+<Error>stderr.txt</Error>
+</POSIXApplication>
+<TotalCPUCount>1</TotalCPUCount>
+<TotalCPUTime>240</TotalCPUTime>
+</Application>
+</JobDescription>
+</JobDefinition>

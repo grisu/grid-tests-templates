@@ -1,0 +1,17 @@
+<JobDefinition xmlns="http://schemas.ggf.org/jsdl/2005/11/jsdl">
+<JobDescription>
+<JobIdentification><JobName>underworldTest</JobName></JobIdentification>
+<Application>
+<ApplicationName>underworld</ApplicationName>
+<ApplicationVersion>1.2.0</ApplicationVersion>
+<POSIXApplication xmlns="http://schemas.ggf.org/jsdl/2005/11/jsdl-posix">
+<Executable>Underworld</Executable>
+<Argument>RayleighTaylorBenchmark_1.2.0_smoketest.xml</Argument>
+<Output>stdout.txt</Output>
+<Error>stderr.txt</Error>
+</POSIXApplication>
+<TotalCPUCount>4</TotalCPUCount>
+<TotalCPUTime>960</TotalCPUTime>
+</Application>
+</JobDescription>
+</JobDefinition>

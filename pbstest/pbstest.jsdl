@@ -13,7 +13,7 @@
 </POSIXApplication>
 <TotalCPUCount>2</TotalCPUCount>
 <TotalCPUTime>240</TotalCPUTime>
-<TotalPhysicalMemory><LowerBoundedRange>1048576000</LowerBoundedRange></TotalPhysicalMemory>
+<TotalPhysicalMemory><LowerBoundedRange>1048576</LowerBoundedRange></TotalPhysicalMemory>
 </Application>
 <Resources>
 <CandidateHosts><HostName></HostName></CandidateHosts>

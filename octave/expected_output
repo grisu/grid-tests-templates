@@ -1,0 +1,59 @@
+GNU Octave, version 3.2.4
+Copyright (C) 2009 John W. Eaton and others.
+This is free software; see the source code for copying conditions.
+There is ABSOLUTELY NO WARRANTY; not even for MERCHANTABILITY or
+FITNESS FOR A PARTICULAR PURPOSE.  For details, type `warranty'.
+
+Octave was configured for "x86_64-unknown-linux-gnu".
+
+Additional information about Octave is available at http://www.octave.org.
+
+Please contribute if you find this software useful.
+For more information, visit http://www.octave.org/help-wanted.html
+
+Report bugs to <bug@octave.org> (but first, please read
+http://www.octave.org/bugs.html to learn how to write a helpful report).
+
+For information about changes from previous versions, type `news'.
+
+entrainment_timescale =  0.010000
+entrainment_timescale =  0.030000
+entrainment_timescale =  10000
+entrainment_timescale =  20000
+entrainment_timescale =  40000
+entrainment_timescale =  2
+entrainment_timescale =  0.010000
+entrainment_timescale =  0.10000
+entrainment =  0.0027778
+factor =  1
+factor = 0
+bottom_friction =  0.0010000
+bottom_friction =  0.0040000
+thickness =  100
+time_step =  0.25000
+time_step =  0.50000
+time_step =  1
+w_factor =  1
+K_h =  0.40000
+K_h =  0.20000
+K_h =  0.10000
+K_h =  0.050000
+K_h =  0.020000
+K_h =  0.010000
+K_h =  0.0010000
+K_h =  0.0025000
+K_h =  0.0015000
+K_h =  0.0020000
+K_h_thickness =  4.0000e-04
+scale =  0.25000
+scale =  0.12000
+scale =  1
+scale =  0.10000
+hours =  48
+hours_timesteps =  172800
+plot_hours =  5.5556e-04
+plot_hours =  1
+plot_time_step =  3600
+number_fields =  48
+count = 0
+count_output = 0

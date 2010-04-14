@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><JobDefinition xmlns="http://schemas.ggf.org/jsdl/2005/11/jsdl">
+
+
+	<JobDescription>
+
+		<JobIdentification>
+
+			<JobName>Octave_01</JobName>
+
+		</JobIdentification>
+
+		<Application>
+
+			<ApplicationName>Octave</ApplicationName>
+			<ApplicationVersion>3.2.4</ApplicationVersion>
+			<Description>
+				GNU Octave is a high-level language, primarily intended for numerical computations. Find more about Octave at http://www.gnu.org/software/octave/
+			</Description>
+			<POSIXApplication xmlns="http://schemas.ggf.org/jsdl/2005/11/jsdl-posix">
+
+				<Executable>octave</Executable>
+
+				<Argument>--no-history</Argument>
+				<Argument>--no-line-editing</Argument>
+				<Argument>plume_model_v2.m</Argument>
+
+				<!-- 	The name of the standard output file. -->
+				<Output>stdout.txt</Output>
+				<!--  	The name of the standard error file. -->
+				<Error>stderr.txt</Error>
+				<!-- 	loads the module needed for a Octave job -->
+
+			</POSIXApplication>
+
+
+			<TotalCPUTime>600</TotalCPUTime>
+
+			<TotalCPUCount>1</TotalCPUCount>
+			
+                        <TotalPhysicalMemory>
+                                <LowerBoundedRange>0</LowerBoundedRange>
+                        </TotalPhysicalMemory>
+
+		</Application>
+
+	</JobDescription>
+</JobDefinition>

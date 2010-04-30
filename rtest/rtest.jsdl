@@ -1,0 +1,22 @@
+<JobDefinition xmlns="http://schemas.ggf.org/jsdl/2005/11/jsdl">
+<JobDescription>
+<JobIdentification><JobName>rTest</JobName></JobIdentification>
+<Application>
+<ApplicationName>R</ApplicationName>
+<ApplicationVersion>2.10.1</ApplicationVersion>
+<POSIXApplication xmlns="http://schemas.ggf.org/jsdl/2005/11/jsdl-posix">
+<Executable>R</Executable>
+<Argument>--no-readline</Argument>
+<Argument>--no-restore</Argument>
+<Argument>--no-save</Argument>
+<Argument>-f</Argument>
+<Argument>demo-input.R</Argument>
+<Output>stdout.txt</Output>
+<Error>stderr.txt</Error>
+</POSIXApplication>
+<TotalCPUCount>1</TotalCPUCount>
+<TotalCPUTime>960</TotalCPUTime>
+<TotalPhysicalMemory>1024</TotalPhysicalMemory>
+</Application>
+</JobDescription>
+</JobDefinition>

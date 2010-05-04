@@ -1,0 +1,20 @@
+<JobDefinition xmlns="http://schemas.ggf.org/jsdl/2005/11/jsdl">
+<JobDescription>
+<JobIdentification><JobName>grid-mpiblast</JobName></JobIdentification>
+<Application>
+    <ApplicationName>mpiblast</ApplicationName>
+    <ApplicationVersion>1.5.0</ApplicationVersion>
+    <POSIXApplication xmlns="http://schemas.ggf.org/jsdl/2005/11/jsdl-posix">
+        <Executable>mpiblast</Executable>
+        <Argument>-p</Argument><Argument>blastp</Argument>
+        <Argument>-d</Argument><Argument>nr</Argument>
+        <Argument>-i</Argument><Argument>myblashin.fa</Argument>
+        <Argument>-o</Argument><Argument>myout.txt</Argument>
+        <Output>stdout.txt</Output>
+        <Error>stderr.txt</Error>
+    </POSIXApplication>
+    <TotalCPUCount>16</TotalCPUCount>
+    <TotalCPUTime>240</TotalCPUTime>
+</Application>
+</JobDescription>
+</JobDefinition>

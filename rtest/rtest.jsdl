@@ -3,7 +3,6 @@
 <JobIdentification><JobName>rTest</JobName></JobIdentification>
 <Application>
 <ApplicationName>R</ApplicationName>
-<ApplicationVersion>2.10.1</ApplicationVersion>
 <POSIXApplication xmlns="http://schemas.ggf.org/jsdl/2005/11/jsdl-posix">
 <Executable>R</Executable>
 <Argument>--no-readline</Argument>

@@ -5,11 +5,11 @@
 <ApplicationName>MrBayes</ApplicationName>
 <POSIXApplication xmlns="http://schemas.ggf.org/jsdl/2005/11/jsdl-posix">
 <Executable>mb</Executable>
-<Argument>mrbayes.nex</Argument>
+<Argument>extra-very-small-zealignementnex.NEX</Argument>
 <Output>stdout.txt</Output>
 <Error>stderr.txt</Error>
 </POSIXApplication>
-<TotalCPUCount>1</TotalCPUCount>
+<TotalCPUCount>2</TotalCPUCount>
 <TotalCPUTime>600</TotalCPUTime>
 <TotalPhysicalMemory>1024</TotalPhysicalMemory>
 </Application>

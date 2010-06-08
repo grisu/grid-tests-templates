@@ -1,0 +1,20 @@
+<JobDefinition xmlns="http://schemas.ggf.org/jsdl/2005/11/jsdl">
+<JobDescription>
+<JobIdentification><JobName>povrTest</JobName></JobIdentification>
+<Application>
+<ApplicationName>POVray</ApplicationName>
+<POSIXApplication xmlns="http://schemas.ggf.org/jsdl/2005/11/jsdl-posix">
+<Executable>povray</Executable>
+<Argument>+Ipovray_test.pov</Argument>
+<Argument>+FN</Argument>
+<Argument>+A</Argument>
+<Argument>+W800</Argument>
+<Argument>+H600</Argument>
+<Output>stdout.txt</Output>
+<Error>stderr.txt</Error>
+</POSIXApplication>
+<TotalCPUCount>1</TotalCPUCount>
+<TotalCPUTime>600</TotalCPUTime>
+</Application>
+</JobDescription>
+</JobDefinition>

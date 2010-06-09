@@ -1,0 +1,17 @@
+<JobDefinition xmlns="http://schemas.ggf.org/jsdl/2005/11/jsdl">
+<JobDescription>
+<JobIdentification><JobName>EPTest</JobName></JobIdentification>
+<Application>
+<ApplicationName>ESyS-Particle</ApplicationName>
+<POSIXApplication xmlns="http://schemas.ggf.org/jsdl/2005/11/jsdl-posix">
+<Executable>mpipython</Executable>
+<Argument>rot_compress.py</Argument>
+<Output>stdout.txt</Output>
+<Error>stderr.txt</Error>
+</POSIXApplication>
+<TotalCPUCount>3</TotalCPUCount>
+<TotalCPUTime>900</TotalCPUTime>
+<TotalPhysicalMemory>1024</TotalPhysicalMemory>
+</Application>
+</JobDescription>
+</JobDefinition>

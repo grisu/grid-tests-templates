@@ -1,0 +1,17 @@
+<JobDefinition xmlns="http://schemas.ggf.org/jsdl/2005/11/jsdl">
+<JobDescription>
+<JobIdentification><JobName>BSTest</JobName></JobIdentification>
+<Application>
+<ApplicationName>BEAST</ApplicationName>
+<POSIXApplication xmlns="http://schemas.ggf.org/jsdl/2005/11/jsdl-posix">
+<Executable>beast</Executable>
+<Argument>1471-2148-7-214-s1.xml</Argument>
+<Output>stdout.txt</Output>
+<Error>stderr.txt</Error>
+</POSIXApplication>
+<TotalCPUCount>1</TotalCPUCount>
+<TotalCPUTime>600</TotalCPUTime>
+<TotalPhysicalMemory>512</TotalPhysicalMemory>
+</Application>
+</JobDescription>
+</JobDefinition>

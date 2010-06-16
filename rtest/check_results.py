@@ -9,7 +9,7 @@ output = sys.argv[1]
 outputSize = os.path.getsize(output)
         
 if outputSize <= 0:
-    print 'FrequentOutput.dat is empty'
+    print 'Rplots.pdf is empty'
     sys.exit(1)
 
 

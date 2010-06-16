@@ -9,7 +9,7 @@ output = sys.argv[1]
 outputSize = os.path.getsize(output)
         
 if outputSize <= 0:
-    print 'blast output is empty'
+    print 'output is empty'
     sys.exit(1)
 
 

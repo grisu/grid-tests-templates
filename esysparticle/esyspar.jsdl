@@ -9,7 +9,7 @@
 <Output>stdout.txt</Output>
 <Error>stderr.txt</Error>
 </POSIXApplication>
-<TotalCPUCount>3</TotalCPUCount>
+<TotalCPUCount>4</TotalCPUCount>
 <TotalCPUTime>900</TotalCPUTime>
 <TotalPhysicalMemory>1024</TotalPhysicalMemory>
 </Application>

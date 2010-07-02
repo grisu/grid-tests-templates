@@ -12,7 +12,7 @@ from esys.lsm.geometry import *
 from WallLoader import WallLoaderRunnable
 
 #instantiate a simulation object: 
-sim = LsmMpi (numWorkerProcesses = 2, mpiDimList = [1,2,1])
+sim = LsmMpi (numWorkerProcesses = 3, mpiDimList = [1,3,1])
 
 #initialise the neighbour search algorithm:
 sim.initNeighbourSearch (

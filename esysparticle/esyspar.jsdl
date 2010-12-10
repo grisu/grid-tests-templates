@@ -5,7 +5,7 @@
 <ApplicationName>ESyS-Particle</ApplicationName>
 <POSIXApplication xmlns="http://schemas.ggf.org/jsdl/2005/11/jsdl-posix">
 <Executable>mpipython</Executable>
-<Argument>rot_compress.py</Argument>
+<Argument>ESyS_Particle_Primary.py</Argument>
 <Output>stdout.txt</Output>
 <Error>stderr.txt</Error>
 </POSIXApplication>

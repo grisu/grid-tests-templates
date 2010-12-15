@@ -1,0 +1,18 @@
+<JobDefinition xmlns="http://schemas.ggf.org/jsdl/2005/11/jsdl">
+<JobDescription>
+<JobIdentification><JobName>CXTest</JobName></JobIdentification>
+<Application>
+<ApplicationName>CalculiX</ApplicationName>
+<POSIXApplication xmlns="http://schemas.ggf.org/jsdl/2005/11/jsdl-posix">
+<Executable>ccx</Executable>
+<Argument>-i</Argument>
+<Argument>CalculiX_example</Argument>
+<Output>stdout.txt</Output>
+<Error>stderr.txt</Error>
+</POSIXApplication>
+<TotalCPUCount>1</TotalCPUCount>
+<TotalCPUTime>600</TotalCPUTime>
+<TotalPhysicalMemory>512</TotalPhysicalMemory>
+</Application>
+</JobDescription>
+</JobDefinition>

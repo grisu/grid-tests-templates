@@ -11,8 +11,8 @@
 <Error>stderr.txt</Error>
 <Module></Module>
 </POSIXApplication>
-<TotalCPUCount>2</TotalCPUCount>
-<TotalCPUTime>240</TotalCPUTime>
+<TotalCPUCount>1</TotalCPUCount>
+<TotalCPUTime>120</TotalCPUTime>
 <TotalPhysicalMemory><LowerBoundedRange>1073741824</LowerBoundedRange></TotalPhysicalMemory>
 </Application>
 <Resources>

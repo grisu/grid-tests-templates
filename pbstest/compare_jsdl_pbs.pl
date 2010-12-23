@@ -183,11 +183,26 @@ sub parse_compare
 # ref - http://projects.arcs.org.au/trac/grisu/wiki/GlobusToolkitSubmitter
 $cpu_xml = $table_xml{"TotalCPUCount"};
 $cpu_pbs = $table_pbs{"ncpus"};
+# adapt to different pbs
+ if ($cpu_pbs eq '')
+   {
+    $cpu_pbs = $table_pbs{"nodes"};
+    if ($cpu_pbs eq "1:ppn")
+      {
+	substr($cpu_pbs, 1) = "";
+      }
+   }
 
 # JSDL - element in bytes
 # PBS - units attached (eg 100mb)
 $mem_xml = $table_xml{"TotalPhysicalMemory"};
 $tmp = $table_pbs{"vmem"};
+# adapt to different pbs
+ if ($tmp eq '')
+   {
+    $tmp = $table_pbs{"mem"};
+   }
+
 $mem_pbs = pbs_memory_bytes($tmp);
 
 # JSDL - in seconds
@@ -197,7 +212,17 @@ $tmp = $table_pbs{"walltime"};
 $time_pbs = pbs_walltime_seconds($tmp);
 
 $module_xml = $table_xml{"Module"};
+ if ($module_xml eq '
+')
+   {
+    $module_xml = "";
+   }
 $module_pbs = $table_pbs{"module"};
+# VPAC special
+ if ($module_pbs eq 'vpac')
+   {
+    $module_pbs = "";
+   }
 
 # TODO - mpi / mpirun test
 my $status=0;

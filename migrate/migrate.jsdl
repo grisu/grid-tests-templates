@@ -11,7 +11,7 @@
 <Error>stderr.txt</Error>
 </POSIXApplication>
 <TotalCPUCount>1</TotalCPUCount>
-<TotalCPUTime>1000</TotalCPUTime>
+<TotalCPUTime>100</TotalCPUTime>
 <TotalPhysicalMemory>512</TotalPhysicalMemory>
 </Application>
 </JobDescription>

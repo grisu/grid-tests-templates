@@ -12,7 +12,6 @@
 </POSIXApplication>
 <TotalCPUCount>4</TotalCPUCount>
 <TotalCPUTime>2000</TotalCPUTime>
-<TotalPhysicalMemory>512</TotalPhysicalMemory>
 </Application>
 </JobDescription>
 </JobDefinition>

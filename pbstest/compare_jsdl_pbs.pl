@@ -187,7 +187,13 @@ $cpu_pbs = $table_pbs{"ncpus"};
  if ($cpu_pbs eq '')
    {
     $cpu_pbs = $table_pbs{"nodes"};
+    # torque
     if ($cpu_pbs eq "1:ppn")
+      {
+	substr($cpu_pbs, 1) = "";
+      }
+    # ersa
+    if ($cpu_pbs eq "1:myri")
       {
 	substr($cpu_pbs, 1) = "";
       }
